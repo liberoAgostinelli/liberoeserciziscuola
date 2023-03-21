@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* header{
+    border: 2px solid black;
+} */
+
+#ben{
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4);
+    margin: 15%;
+    padding: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    padding: 0.4em;
+    font-size: 1.2em;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Header */
+
+#titolo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    font-weight: 400;
+    /* border: 2px solid black; */
+}
+#titolo span{
+    font-size: 2rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 3em;
+    /* border: 2px solid black; */
+}
+
+nav ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    width: 9em;
+    padding: 5px;
+    margin: 1em;
+    background-color: rgb(69, 140, 203);
+    color: white;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* Main */
+
+#main{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4em 3em 0 3em;
+    width: 70%;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 0px 0px 10px 5px rgba(69, 140, 203, 0.9); */
+    /* border-radius: 5px; */
+    padding-bottom: 3em;
+}
+
+.requests{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    padding: 1.2em;
+    margin-top: 3em;
+    /* border-radius: 15px; */
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4);
+    /* box-shadow: 0px 0px 10px 5px rgba(69, 140, 203, 0.9); */
+}
+
+#check{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.wrappCheck{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em;
+}
+
+.spanCheck{
+    /* border: 2px solid black; */
+    padding-right: 1em;
+    /* font-size: 1.2em; */
+}
+
+.radioSbagliato{
+    box-shadow: 0px 0px 8px 3px rgba(255, 0, 0, 0.9);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radioGiusto{
+    box-shadow: 0px 0px 8px 3px rgba(6, 157, 1, 0.9);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+    background-color: red; 
+    width: 20px;
+    height: 20px;
+}
+
+/* css btn */
+
+.btn{
+    padding: 0.5em;
+    width: 10em;
+    height: 3em;
+    margin: 1em 6em 1em 6em;
+    font-size: 1em;
+    font-weight: 800;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.wrappBtn{ 
+    padding: 3em;
+    /* border: 2px solid black;   */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnAnnulla{
+    background-color: rgb(235, 92, 92);
+}
+
+#btnVerifica{
+    background-color: rgb(65, 183, 71);
+}
+.btnServer{
+    padding: 0.7em;
+    font-size: 1.2em;
+    font-weight: 800;
+    color: white;
+    /* width: 7em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 5em 1em 5em;
+}
+#punt{
+    background-color: rgb(235, 92, 92);
+    width: 10em;
+}
+#rip{
+    background-color: rgb(69, 140, 203);
+    width: 10em;
+}
+/* Footer */
+footer{
+    /* border: 2px solid rgb(255, 255, 255); */
+    height: 4em;
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    margin-top: 3em;
+}
+#container{
+    height: 4em;
+    width: 100%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+#autore{
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+}
+/* Side menu */
+#sideMenu{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    width: 12em;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4);
+}
+#sideMenu ul{
+    width: 100%;
+}
+#sideMenu ul li{
+    list-style: none;
+}
+
+#sideMenu ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(84, 84, 84);
+    height: 1em;
+    width: 89.3%;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: rgb(238, 238, 238);
+}
+
+#sideMenu ul li a:hover{
+    background-color: rgb(197, 205, 213);
+}
+.cap{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 12px;
+    background-color: rgb(158, 191, 224);
+    border-radius: 10px 10px 0px 0px;
+    height: 45px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(67, 67, 67);
+}
+/* CSS domande in colonna */
+
+#checkColonna{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    /* width: 100%; */
+}
+.wrappCheckCol{
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em;
+}
+
+
+/* Media query */
+
+@media (max-width : 768px) {
+    body{
+        width: 100vw;
+        /* border: 2px solid black; */
+    }
+    header{
+        /* border: 2px solid black; */
+        width: 100vw;
+    }
+    #titolo span{
+        font-size: 1.2em;
+    }
+    nav{
+    	width: 100%;
+    }
+    nav ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 10em;
+        margin-top: 0.6em;
+    }
+    #main{
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.0);
+        width: 100%;
+        margin-top: 1em;
+    }
+    #sideMenu{
+        border-radius: 0;
+        margin-top: 1.4em;
+        position: relative;
+    }
+    .cap{
+        border-radius: 0;
+    }
+    #check{
+        flex-direction: column;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    .wrappCheck{
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    .wrappBtn{
+        /* border: 2px solid rgb(30, 8, 231); */
+        width: 70%;
+    }
+    .btn{
+        margin: 1em 1em 1em 1em;
+    }
+    .btnServer{
+        margin: 1em 0.5em 1em 0.5em;
+        
+    }
+    #punt{
+        width: 25em;
+    }
+    
+}
