@@ -18,8 +18,7 @@ try{
     $i = 0;
     $record = [];
     while($record = $st->fetch()){
-        //echo $record['id_domanda'] . '<br>';
-        //var_dump($record);
+
         $domanda[$i] = $record['domanda'];
         $risposta_1[$i] = $record['risposta_1'];
         $risposta_2[$i] = $record['risposta_2'];
@@ -42,7 +41,7 @@ try{
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css?ts=<?=time()?>&quot">
     <title>Sistemi e reti correzione</title>
 </head>
 <body>
