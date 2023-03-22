@@ -13,7 +13,7 @@ $pass = "Leomolly123?";
 try{
     $PDOconn = new PDO($dsn, $username, $pass);
     $PDOconn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $st = $PDOconn->query("select * from inglese_operating_systems_esercizio_1");
+    $st = $PDOconn->query("select * from inglese_operating_systems_esercizio_2");
 
     $i = 0;
     $record = [];
@@ -93,7 +93,7 @@ try{
 
     <div class="wrappBtn">
         <span id="punt" class="btnServer">Punteggio <?php echo $punteggio;?> </span>
-        <a href="../index/index_inglese_operating_systems_esercizio_1.php" id="rip" class="btnServer">Ripeti</a>
+        <a href="../index/index_inglese_operating_systems_esercizio_2.php" id="rip" class="btnServer">Ripeti</a>
     </div>
     
 </div>

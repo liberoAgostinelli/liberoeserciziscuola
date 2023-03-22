@@ -13,7 +13,7 @@ $pass = "Leomolly123?";
 try{
     $PDOconn = new PDO($dsn, $username, $pass);
     $PDOconn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $st = $PDOconn->query("select * from inglese_operating_systems_esercizio_1");
+    $st = $PDOconn->query("select * from inglese_operating_systems_esercizio_2");
 
     $i = 0;
     $record = [];
@@ -59,7 +59,7 @@ try{
         </ul>
     </div>
 
-    <form action="../server/server_inglese_operating_systems_esercizio_1.php" method="POST" name="modulo">
+    <form action="../server/server_inglese_operating_systems_esercizio_2.php" method="POST" name="modulo">
 
     <?php for($j = 0; $j< count($domanda); $j++) : ?>
     <div class="requests">
